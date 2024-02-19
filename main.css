@@ -1,0 +1,193 @@
+@font-face{
+    font-family:ubunto;
+    src: url(src/Ubuntu-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #202124;
+    font-family:ubunto;
+}
+hr{
+    margin:0 auto;
+    border-color: #808080;
+    height: 1px; 
+   
+}
+.lable{
+    padding: 3px 5px;
+    background-color: #bb86fc;
+    border-radius: 5px;
+}
+i.fa{
+    color: #bb86fc;
+    
+}
+.pb70 {
+    width: 70%;
+}
+.pb20{
+    width: 20%;
+
+}
+.pb100{
+width: 100%;
+}
+.pb100{
+    width: 100%;
+
+}
+.pb80{
+    width: 80%;
+}
+.pb40{
+    width: 40%;
+}
+.container{
+    width: 98%;
+    padding: 1%;
+}
+.left-side{
+   
+    background-color: #303134;
+    display: inline-block;
+    width: 25%;
+   
+    margin: 0.5%;
+    vertical-align: top; 
+    border-radius:3px;
+  
+}
+.aside-item {
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px; 
+}
+
+.item_title{
+    margin-left: 5px;
+}
+.Skile-item{
+    margin-top: 15px;
+}
+.progress-box{
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.progress-box .progress-bar{
+    background-color: #bb86fc;
+    padding: 2px;
+    border-radius: 15px;
+    
+    
+}
+
+#decription_box{
+    padding: 15px;
+}
+#description_box ul{
+    list-style: none;
+
+}
+#description_box ul li{
+    margin-bottom: 15px;
+
+}
+ 
+#description_box ul li i.fa{
+    font-size:15px;
+    color: #bb86fc;
+    margin-left: 10px;
+}
+#description_box ul li span{
+    font-size:16px;
+    color: #fff;
+    margin-left: 10px;
+    
+
+}
+
+.right-side{ 
+    display: inline-block;
+    width: 72%;
+    margin: 0.5%;
+    vertical-align: top;
+  
+}
+.right-side section{
+    background-color: #303134;
+    
+    margin-bottom: 2%;
+    padding: 67px;
+ 
+    
+}
+
+#profile_box{
+    position: relative;
+}
+#profile_box #profile_Img{
+  width: 100%;
+  border-radius:3px 3px 0 0;
+}
+#profile_box #profile_name{
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 1%; 
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    font-size:17px;
+}
+.head-title {
+    font-size:32px;
+    color: #fff;
+}
+.right-side-item{
+    color: #fff;
+}
+.right-side-item h3,
+.right-side-item h4
+{
+    margin: 18.5px 0px;
+}
+
+.right-side-item p {
+    margin: 15px 0px 40px;
+}
+
+
+footer{
+    background-color: #bb86fc;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+@media only screen and (max-width:768px) {
+    
+    .left-side{ 
+        display: inline-block;
+        width: 99%;
+      
+    }
+
+  
+.right-side{ 
+    display: block;
+    width: 99%;   
+}
+
+
+}
